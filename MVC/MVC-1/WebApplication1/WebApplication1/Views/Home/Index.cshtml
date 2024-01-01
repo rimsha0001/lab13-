@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<script>
+    $(document).ready(function () {
+        $("#btnSave").click(function () {
+            var from_data = new from_data(document.getElementById("from1"));
+            from_data.append("label", "WEBUPLOAD");
+            $.ajax({
+                url = "Control Name",
+                type ="Post",
+                data: from_data,
+                processData: false,
+                contentType: false
+            }).done(function (date) {
+                console.log(data);
+                $('form1')[0].reset();
+                alert(date);
+
+            });
+
+        });
+    });
+</script>
+<from id="form1" method ="Post">
+    <table>
+        <tr>
+            <td>Id</td>
+            <td><input type="text" name="txtname" id="txtName" /></td>
+        </tr>
+
+        <tr>
+            <td>Name</td>
+            <td><textarea name="textName" id="txtName"></textarea></td>
+        </tr>
+
+        <tr>
+            <td>Smester</td>
+            <td><textarea name="textSmester" id="txtSmester"></textarea></td>
+        </tr>
+        <tr>
+            <td><input type="button" name="btnsave" id="btnsave" value="save"/></td>
+        </tr>
+    </table>
+
+</from>

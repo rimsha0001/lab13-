@@ -1,0 +1,6 @@
+C:\Users\HP\source\repos\MVC\BussinessLayer\bin\Debug\BussinessLayer.dll
+C:\Users\HP\source\repos\MVC\BussinessLayer\bin\Debug\BussinessLayer.pdb
+C:\Users\HP\source\repos\MVC\BussinessLayer\obj\Debug\BussinessLayer.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\MVC\BussinessLayer\obj\Debug\BussinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\MVC\BussinessLayer\obj\Debug\BussinessLayer.dll
+C:\Users\HP\source\repos\MVC\BussinessLayer\obj\Debug\BussinessLayer.pdb
